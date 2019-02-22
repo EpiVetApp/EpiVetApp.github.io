@@ -1,0 +1,22 @@
+div.layout{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+div.header{
+	background-color:#444;
+	color:#fff;
+	flex:0 0 auto;
+}
+
+div.content{
+	flex:1 0 auto;
+}
+
+div.footer{
+	align-self:end;
+	background-color:#444;
+	flex:0 0 auto;
+	min-height:100px;
+}
